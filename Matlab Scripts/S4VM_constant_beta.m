@@ -1,5 +1,9 @@
 function prediction=S4VM_constant_beta(labelInstance,label,unlabelInstance,kernel,C1,C2,sampleTime,gamma)
 
+%%%% I CHANGED THIS SCRIPT BY SETTING THE BALANCE PARAMETER (beta) TO A CONSTANT 0.9. THE ORIGINAL CAN 
+% BE FOUND AT http://lamda.nju.edu.cn/code_S4VM.ashx?AspxAutoDetectCookieSupport=1 %%%%%%%%%%%%%
+
+
 % S4VM implements the S4VM algorithm in [1].
 %  ========================================================================
 %
@@ -164,7 +168,7 @@ prediction=linearProgramming(prediction,ysvm,labelNum,3);
         else
             model=svmtrain(predictLabelLastLast,instance,C,['-g ',num2str(gamma)]);
         end
-        [predictLabel,acc,values]=svmpredict(predictLabelLastLast,instance,model);%对未标记样本进行预测
+        [predictLabel,acc,values]=svmpredict(predictLabelLastLast,instance,model);%露脭脦麓卤锚录脟脩霉卤戮陆酶脨脨脭陇虏芒
         if(values(1)*predictLabel(1)<0)
             values=-values;
         end
