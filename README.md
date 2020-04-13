@@ -3,6 +3,7 @@
 This example uses 100 randomly-selected images from our dataset of 1925. The data is featurized using the last layer of the fifth convolutional layer of the VGG16 architecture, and the dimensionality of the space is reduced using average pooling. M3C using K-means clustering is then run on this data to determine the optimal cluster number. Item consensus values are used to determine high-confidence and ambiguous data, and this data is used to train the classifiers in the semi-supervised framework. All data shared between python/R/Matlab is in the form of Excel documents.
 
 Necessary Packages (beyond base):
+
 Python:
 
 •	Keras
