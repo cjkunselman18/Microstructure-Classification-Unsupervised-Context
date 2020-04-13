@@ -1,7 +1,7 @@
 function prediction=S4VM_constant_beta(labelInstance,label,unlabelInstance,kernel,C1,C2,sampleTime,gamma)
 
 %%%% I CHANGED THIS SCRIPT BY SETTING THE BALANCE PARAMETER (beta) TO A CONSTANT 0.9. THE ORIGINAL CAN 
-% BE FOUND AT http://lamda.nju.edu.cn/code_S4VM.ashx?AspxAutoDetectCookieSupport=1 %%%%%%%%%%%%%
+% BE FOUND AT http://www.lamda.nju.edu.cn/code_S4VM.ashx %%%%%%%%%%%%%
 
 
 % S4VM implements the S4VM algorithm in [1].
