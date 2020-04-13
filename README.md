@@ -34,7 +34,7 @@ R:
 
 Matlab:
 
-•	S4VM (http://lamda.nju.edu.cn/code_S4VM.ashx?AspxAutoDetectCookieSupport=1)
+•	S4VM (http://www.lamda.nju.edu.cn/code_S4VM.ashx)
 
 INSTRUCTIONS:
 
