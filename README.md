@@ -6,24 +6,37 @@ Necessary Packages (beyond base):
 Python:
 
 •	Keras
+
 •	Numpy
+
 •	Xlsxwriter
+
 •	Xlrd
+
 •	Sklearn
+
 •	Seaborn
+
 •	Matplotlib
+
 •	Copkmeans (https://github.com/Behrouz-Babaki/COP-Kmeans)
+
 •	Random
 
 R:
+
 •	M3C (you will need BiocManager to install)
+
 •	ConsensusClusterPlus (need BiocManager)
+
 •	Openxlsx
 
 Matlab:
+
 •	S4VM (http://lamda.nju.edu.cn/code_S4VM.ashx?AspxAutoDetectCookieSupport=1)
 
 INSTRUCTIONS:
+
 1.	Download all of the files into the same folder and set this as your working directory for python, R, and Matlab. An extra folder of Excel files is provided so you can check that you are getting the correct output (or so you can skip steps if you do not have certain software/packages available). The Excel files that you produce will not overwrite those in the Excel Files folder.
 
 2.	Open Ex_Featurization.py and run. This script featurizes all of the images and performs average pooling for dimensionality reduction. It also outputs the Excel file Data_Average_Pooling.xlsx into the working directory.
